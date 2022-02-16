@@ -1,0 +1,240 @@
+body{
+font-size: 16px;
+line-height: 1.5;
+font-family: "Roboto", "Arial", sans-serif;
+letter-spacing: 0,5px;
+}
+
+/* SITE HEADER */
+.site-header{
+    background-color: #fff ;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 5px solid #ff7500;
+    align-items: center;
+}
+
+.logo-link{
+    transition: opacity 0.4s;
+}
+
+.site-header-actions{
+    display: flex;
+    align-items: center;
+}
+
+/* MAINLIK */
+.main-link{
+    display: inline-block;
+    /* tepa o'ng past chap */
+    /* pastda esa 12px bu tepa-past, 24px ikki yon  */
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    background-color: #ff7500;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.4 s ease;
+}
+
+.main-link:hover{
+    opacity: 0.8;
+}
+
+.main-link:active{
+    opacity: 0.6;
+}
+
+/* SITENAV */
+.sitenav-list{
+    display: flex;
+    list-style: none;
+}
+
+.sitenav-link{
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+/* HERO */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #252420;
+    color: #fff;
+}
+
+.hero-content{
+    width: 390px;;
+}
+
+.orange-line{
+    width: 80px;
+    height: 3px;
+    background-color:#ff7500;
+    border:0;
+}
+
+.hero-img{
+    width: 510px;
+    height: 510px;
+}
+
+.hero-heading{
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0,5px;
+}
+
+.features-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.hero-text{
+    height: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.features-heading{
+    width: 440px;
+    font-size: 72px;
+    line-height: 0,12;
+    letter-spacing: 0.5px;
+}
+
+/* FEATURES */
+.features{
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+
+.features-heading{
+    width: 440px;
+    font-size: 72px;
+    line-height: 1.2;
+    font-family: "Roboto condensed", "Roboto", "Arial", Sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.features-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/* FEATURE */
+.feature{
+    width: 340px;
+}
+
+.feature-icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 117, 0, 0.2);
+    border-radius: 50%;
+}
+
+.featur-title{
+    font-size: 24px;
+    line-height: 1.2;
+    font-family: "Roboto condensed", "Roboto", "Arial", Sans-serif;
+}
+
+/* PROMO */
+.promo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252420;
+    color: #fff;
+}
+
+.promo-content{
+    width: 440px;
+}
+
+.promo-heading{
+    font-size: 40px;
+    line-height: 48px;
+    font-family: "Roboto-codensed", "Roboto" "Arial", sans-serif;
+}
+
+.promo-highligth{
+    color: #ff7500;
+}
+
+/* SITE FOOTER */
+.site-footer{
+    background-color: #f8f8f8;
+}
+
+.dite-footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-footer ul{
+    list-style: none;
+}
+
+.site-footer-socials{
+    display: flex;
+    align-items: center;
+}
+
+.site-footer-divider{
+    height: 2px;
+    background-color: rgba(37, 36, 32, 0,5);
+}
+
+.site-footer-bottom{
+    display: flex;
+}
+
+.site-footer-links{
+    width: 244px;
+    line-height: 19px;
+    list-style: none;
+}
+
+.site-footer-links a{
+    text-decoration: none;
+    color: #252420;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

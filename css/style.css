@@ -3,9 +3,9 @@
 }
 
 body{
-    font-size: 16px;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-size: 16px;
     line-height: 1.5;
     font-family: "Roboto", "Arial", sans-serif;
     letter-spacing: 0.5px;
@@ -28,13 +28,18 @@ body{
 
     /* SITE HEADER */
     .site-header{
+        display: flex;
         padding-top: 16px;
         padding-bottom: 16px;
-        display: flex;
         border-top: 5px solid #ff7500;
     }
     
+    .site-header-actions{
+        display: flex;
+        align-items: center;}
+
     .site-header-container{
+        display: flex;
         background-color: #fff;
         justify-content: space-between;
         align-items: center; 
@@ -42,6 +47,7 @@ body{
 
     .logo-link{
         transition: opacity 0.4s;
+        display: inline-block;
     }
     
     .logo-link:hover{
@@ -52,10 +58,6 @@ body{
         color: #ff7500;
     }     
 
-    .site-header-actions{
-        display: flex;
-        align-items: center;
-    }
     
     /* MAINLIK */
     .main-link{
@@ -130,10 +132,10 @@ body{
     .orange-line{
         width: 80px;
         height: 3px;
-        background-color:#ff7500;
+        border:none;
         margin: 0;
         margin-bottom:40px;
-        border:0;
+        background-color:#ff7500;
     }
     
     .hero-img{
@@ -239,6 +241,13 @@ body{
 
     /* PROMO */
     .promo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 12px;
+        padding: 64px;
+        background-color: #252420;
+        color: #fff;
         padding-top: 120px;
         padding-bottom: 160px;
     }
